@@ -1,0 +1,18 @@
+﻿Build started 24.9.12. 22:31:17.
+     1>Project "C:\Users\zlanusic\Documents\Visual Studio 2008\Projects\Player\Player\Player.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Player.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PlayerDlg.cpp
+         PlayerDlg.cpp
+     1>c:\users\zlanusic\documents\visual studio 2008\projects\player\player\playerdlg.cpp(5): warning C4651: '/D_UNICODE' specified for precompiled header but not for current compile
+     1>c:\users\zlanusic\documents\visual studio 2008\projects\player\player\playerdlg.cpp(5): warning C4651: '/DUNICODE' specified for precompiled header but not for current compile
+     1>c:\users\zlanusic\documents\visual studio 2008\projects\player\player\playerdlg.cpp(176): error C2664: 'CFileDialog::CFileDialog(BOOL,LPCTSTR,LPCTSTR,DWORD,LPCTSTR,CWnd *,DWORD,BOOL)' : cannot convert parameter 5 from 'const char [48]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\zlanusic\documents\visual studio 2008\projects\player\player\playerdlg.cpp(204): error C2664: 'CWnd::SetWindowTextW' : cannot convert parameter 1 from 'const char [6]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\zlanusic\documents\visual studio 2008\projects\player\player\playerdlg.cpp(210): error C2664: 'CWnd::SetWindowTextW' : cannot convert parameter 1 from 'const char [8]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Done Building Project "C:\Users\zlanusic\Documents\Visual Studio 2008\Projects\Player\Player\Player.vcxproj" (ClCompile target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.15

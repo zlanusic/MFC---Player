@@ -1,0 +1,28 @@
+﻿Build started 28.1.13. 20:16:50.
+     1>Project "C:\Users\zlanusic\Documents\Visual Studio 2008\Projects\Player\Player\Player.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Player.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Player.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Player.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Player.cpp PlayerDlg.cpp
+         PlayerDlg.cpp
+         Player.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\Player.res" Player.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Player.exe.embed.manifest.res" Debug\Player_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zlanusic\Documents\Visual Studio 2008\Projects\Player\Debug\Player.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Player.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\zlanusic\Documents\Visual Studio 2008\Projects\Player\Debug\Player.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zlanusic\Documents\Visual Studio 2008\Projects\Player\Debug\Player.lib" /MACHINE:X86 Debug\Player.res
+         Debug\Player.exe.embed.manifest.res
+         Debug\Player.obj
+         Debug\PlayerDlg.obj
+         Debug\stdafx.obj
+     1>PlayerDlg.obj : error LNK2019: unresolved external symbol _MCIWndCreateA referenced in function "protected: void __thiscall CPlayerDlg::OnBnClickedPlay(void)" (?OnBnClickedPlay@CPlayerDlg@@IAEXXZ)
+     1>C:\Users\zlanusic\Documents\Visual Studio 2008\Projects\Player\Debug\Player.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\zlanusic\Documents\Visual Studio 2008\Projects\Player\Player\Player.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.65

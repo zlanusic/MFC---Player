@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Player">
+</Property><Property Name="Solution File" Value="C:\Users\zlanusic\Documents\Visual Studio 2008\Projects\Player\Player.sln">
+</Property><Property Name="User Options File" Value="C:\Users\zlanusic\Documents\Visual Studio 2008\Projects\Player\Player.suo">
+</Property><Property Name="Date" Value="24. rujna 2012.">
+</Property><Property Name="Time" Value="18:26">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Player.sln" Description="File successfully backed up as C:\Users\zlanusic\Documents\Visual Studio 2008\Projects\Player\Player.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="Player.suo" Description="File successfully backed up as C:\Users\zlanusic\Documents\Visual Studio 2008\Projects\Player\Player.suo.old">
+</Event><Event ErrorLevel="0" Project="Player" Source="Player\Player.vcproj" Description="Converting project file 'C:\Users\zlanusic\Documents\Visual Studio 2008\Projects\Player\Player\Player.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Player" Source="Player\Player.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Player" Source="Player\Player.vcproj" Description="Done converting to new project file 'C:\Users\zlanusic\Documents\Visual Studio 2008\Projects\Player\Player\Player.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Player" Source="Player\Player.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Player.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Player.sln" Description="Converted">
+</Event></UpgradeLog>
